@@ -1,0 +1,27 @@
+{
+    "name": "azonmedia/validators",
+    "type": "library",
+    "description": "Various validators",
+    "keywords": ["validators"],
+    "homepage": "https://github.com/AzonMedia/validators",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vesko Kenashkov",
+            "email": "kenashkov@azonmedia.com",
+            "homepage": "http://azonmedia.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "azonmedia/components": "dev-master",
+        "azonmedia/exceptions": "dev-master",
+        "azonmedia/translator": "dev-master",
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azonmedia\\Validators\\": "src/"
+        }
+    }
+}
